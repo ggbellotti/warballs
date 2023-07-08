@@ -1,0 +1,34 @@
+{
+  "name": "warballs",
+  "version": "1.0.0",
+  "description": "Face your opponents and take first place - War Balls",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:guilhermebellotti/warballs.git"
+  },
+  "author": "Guilherme Bellotti & Wesley Santana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilhermebellotti/warballs/issues"
+  },
+  "homepage": "https://github.com/guilhermebellotti/warballs#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "css-minimizer-webpack-plugin": "^5.0.1",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "terser-webpack-plugin": "^5.3.9",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
